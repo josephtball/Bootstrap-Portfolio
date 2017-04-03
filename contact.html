@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Joseph Ball</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="assets/css/style.css">
+	</head>
+
+	<body>
+<!-- logo and nav elements -->
+		<nav class="nav navbar-default">
+			<div class="container">
+<!-- logo -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Joseph Ball</a>
+				</div>
+<!-- nav elements -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="index.html">About</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li class="active"><a href="contact.html">Contact<span class="sr-only">(current)</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<main>
+			<div class="container">
+<!-- main content -->
+				<div class="row">
+					<div class="content-padding content-panel col-lg-8 col-md-7 clearfix">
+						<section>
+							<h2 class="header">Contact</h2>
+						</section>
+						<section>
+							<form name="contact" id="contact" method="post" action="#">
+								<div class="form-group">
+									<label for="name">Name</label><br>
+										<input class="form-control" type="text" name="name" id="name" required="required" placeholder="John Smith">
+								</div>
+								<div class="form-group">
+									<label for="email">Email</label><br>
+										<input class="form-control" type="email" name="email" id="email" required="required" placeholder="example@gmail.com">
+								</div>
+								<div class="form-group">
+									<label for="message">Message</label><br>
+										<textarea class="form-control" name="message" id="message" required="required"></textarea>
+								</div>
+								<button class="submit btn btn-default" type="submit" name="submit" id="submit">Submit</button>
+							</form>					
+						</section>
+					</div>
+<!-- sidebar -->
+					<aside class="content-padding content-panel col-lg-3 col-md-4">
+						<section>
+							<h2 class="aside-header header">Connect with Me</h2>
+						</section>
+<!-- social links -->
+						<section>
+							<ul class="list-inline">
+								<li><a href="https://github.com/josephtball" target="_blank"><img src="assets/images/githubicon.png" alt="GitHub Icon" width="60" height="60"></a></li>
+								<li><a href="https://www.linkedin.com/in/joseph-ball-25055b138" target="_blank"><img src="assets/images/linkedinicon.png" alt="Linkedin Icon" width="60" height="60"></a></li>
+								<li><a href="https://stackoverflow.com/users/7700432/jball?tab=profile" target="_blank"><img src="assets/images/stackoverflowicon.png" alt="Stack Overflow Icon" width="60" height="60"></a></li>
+							</ul>
+						</section>
+					</aside>
+				</div>
+			</div>
+		</main>
+<!-- footer -->
+		<footer>
+			<div class="container">
+				<small>&copy; Copyright 2017 Joseph Ball</small>
+			</div>
+		</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</body>
+</html>

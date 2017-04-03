@@ -1,0 +1,115 @@
+body {
+	background-color: #dddddd;
+	background-image: url(../images/backgroundimage.png);
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+.navbar-default {
+	background-color: #ffffff;
+	border-bottom: 1px solid #cccccc;
+}
+.navbar-default .navbar-brand {
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	color: #ffffff;
+	font-size: 26px;
+	font-weight: bold;
+	margin: 0px 0px 0px 6px;
+}
+.navbar-default .navbar-brand:hover {
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
+.navbar-brand, .navbar-nav li a {
+    line-height: 67px;
+    height: 67px;
+    padding-top: 0;
+}
+.navbar-right {
+	margin-right: 0px;
+}
+.navbar-toggle .icon-bar {
+	margin: 4px 0px;
+}
+.navbar-toggle {
+	margin-top: 12px;
+}
+.content-panel {
+	margin: 40px 20px 0px;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+}
+.header {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-weight: bold;
+	padding-bottom: 25px;
+	border-bottom: 2px solid #dddddd;
+	margin-bottom: 20px;
+}
+.aside-header {
+	font-size: 20px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #dddddd;
+	margin-bottom: 15px;
+}
+.content-padding {
+	padding-right: 20px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+}
+.profile-img {
+	margin-top: 8px;
+	margin-right: 10px;
+}
+p {
+	font-size: 16px;
+	line-height: 2;
+	margin-bottom: 20px;
+}
+p:last-of-type {
+	margin-bottom: 5px;
+}
+
+
+.form-control:focus {
+	border-color: #4aaaa5;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(80,183,177,.6);;
+}
+.submit {
+	color: #ffffff;
+    background-color: #4aaaa5;
+    border-color: #ccc;
+}
+.submit:hover {
+	color: #ffffff;
+    background-color: #2e6a67;
+    border-color: #ccc;
+}
+.submit:active:focus {
+	color: #ffffff;
+    background-color: #4aaaa5;
+    border-color: #ccc;
+}
+footer {
+	background-color: #666666;
+	border-top: 3px solid #4aaaa5;
+	margin-top: 40px;
+	height: 67px;
+	line-height: 63px;
+	text-align: center;
+	color: #a6a6a7;
+}
+
+/* sticky footer */
+html {
+	height: 100%;
+}
+body {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+main {
+	flex: 1;
+}
